@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HealthyBento — Tiffin Ledger · Visakhapatnam</title>
+  <meta name="description" content="HealthyBento CRM. A warm, editorial cockpit for daily lunch dispatch, subscribers, and kitchen prep in Visakhapatnam.">
+
+  <!-- Fonts: Fraunces (serif display), Instrument Sans (body), JetBrains Mono (mono) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..500&family=Instrument+Sans:ital,wght@0,400..600;1,400..600&family=JetBrains+Mono:wght@400;500;600&display=swap">
+
+  <link rel="stylesheet" href="css/app.css">
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect x='4' y='6' width='24' height='18' rx='3' fill='%23f5efe1' stroke='%231c1712' stroke-width='2'/><line x1='4' y1='14' x2='28' y2='14' stroke='%231c1712' stroke-width='2'/><line x1='16' y1='14' x2='16' y2='24' stroke='%231c1712' stroke-width='2'/><circle cx='24' cy='9' r='2' fill='%23c1873b'/></svg>">
+</head>
+<body>
+
+  <header class="masthead">
+    <div class="brand">
+      <span class="mark">HealthyBento</span>
+      <span class="tag">Vizag Hub · v2</span>
+    </div>
+
+    <nav class="nav-tabs" role="tablist" aria-label="Main">
+      <button class="tab is-active" data-view="today" role="tab">
+        <span>Today</span>
+        <span class="count" id="nav-count-today">0</span>
+        <span class="kbd">1</span>
+      </button>
+      <button class="tab" data-view="new" role="tab">
+        <span>New Order</span>
+        <span class="kbd">2</span>
+      </button>
+      <button class="tab" data-view="customers" role="tab">
+        <span>Subscribers</span>
+        <span class="count" id="nav-count-cust">0</span>
+        <span class="kbd">3</span>
+      </button>
+      <button class="tab" data-view="kitchen" role="tab">
+        <span>Kitchen</span>
+        <span class="kbd">4</span>
+      </button>
+    </nav>
+
+    <div class="header-actions">
+      <button class="btn btn-ghost btn-sm" id="btn-reset" title="Reset demo data to seed">Reset data</button>
+      <button class="btn btn-primary" id="btn-new">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" style="margin-right:2px;"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+        New order
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <div id="boot-loading" class="loading">
+      <span class="spinner"></span>
+      <span>Warming the tiffin ledger…</span>
+    </div>
+
+    <section id="view-today" class="view" role="tabpanel"></section>
+    <section id="view-new" class="view" role="tabpanel"></section>
+    <section id="view-customers" class="view" role="tabpanel"></section>
+    <section id="view-kitchen" class="view" role="tabpanel"></section>
+  </main>
+
+  <div class="toast-shelf" id="toast-shelf" aria-live="polite" aria-atomic="true"></div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

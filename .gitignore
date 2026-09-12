@@ -1,0 +1,35 @@
+# Runtime database (seed.json is the source of truth; db.json is local mutable state)
+data/db.json
+data/db.json.*.tmp
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# macOS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+
+# Unrelated content that lives in this directory but is not part of HealthyBento
+ParakeetAI.app/
+ParakeetAI.app.backup/
+ParakeetAI-NoAuth.dmg
+DEEP_DIVE_TECHNICAL_ANALYSIS.md
+NOAUTH_BUILD_README.md
+NOAUTH_BUILD_SUMMARY.txt

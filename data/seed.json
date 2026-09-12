@@ -1,0 +1,745 @@
+{
+  "zones": [
+    {
+      "id": "rushikonda",
+      "name": "Rushikonda IT SEZ & Madhurawada",
+      "corridor": "North IT Belt",
+      "hubs": [
+        "Millennium Tower A & B",
+        "Tech Mahindra SEZ",
+        "Fintech Valley",
+        "Madhurawada IT Hills"
+      ],
+      "rider": "Ramesh Varma",
+      "vehicle": "Hero Electric (AP 31 DE 4491)",
+      "phone": "+91 98480 23145",
+      "temp": "65°C",
+      "status": "on-route",
+      "coords": {
+        "x": 78,
+        "y": 28
+      }
+    },
+    {
+      "id": "siripuram",
+      "name": "Siripuram & Waltair Uplands",
+      "corridor": "Central Corporate Hub",
+      "hubs": [
+        "HSBC Center",
+        "Dwaraka Nagar Commercial Hub",
+        "VIP Road Offices",
+        "Andhra Bank Bhavan"
+      ],
+      "rider": "Suresh Kumar",
+      "vehicle": "TVS iQube (AP 31 BK 8820)",
+      "phone": "+91 94401 77329",
+      "temp": "65°C",
+      "status": "ready",
+      "coords": {
+        "x": 52,
+        "y": 55
+      }
+    },
+    {
+      "id": "mvp_colony",
+      "name": "MVP Colony & Beach Road",
+      "corridor": "Coastal Residential & Healthcare",
+      "hubs": [
+        "Care Hospital Zone",
+        "AS Raja Grounds Area",
+        "Lawson's Bay Corporate Suites",
+        "Sector 1-6"
+      ],
+      "rider": "Prasad Rao",
+      "vehicle": "Ather 450X (AP 31 CN 1022)",
+      "phone": "+91 91775 88231",
+      "temp": "64°C",
+      "status": "packing",
+      "coords": {
+        "x": 64,
+        "y": 42
+      }
+    },
+    {
+      "id": "gajuwaka",
+      "name": "Gajuwaka & Industrial Corridor",
+      "corridor": "South Industrial Belt",
+      "hubs": [
+        "Vizag Steel Plant ED Office",
+        "BHPV Complex",
+        "Scindia Naval Base Zone",
+        "Auto Nagar"
+      ],
+      "rider": "Lakshmi Narayana",
+      "vehicle": "Bajaj Chetak (AP 31 EN 7731)",
+      "phone": "+91 93930 45612",
+      "temp": "61°C",
+      "status": "on-route",
+      "coords": {
+        "x": 26,
+        "y": 80
+      }
+    }
+  ],
+  "templates": [
+    {
+      "id": "veg_classic",
+      "name": "Nutri-Balance Veg Bento",
+      "diet": "veg",
+      "baseGrain": "Foxtail Millet & Phulkas",
+      "proteinMain": "Paneer Makhani & Tadka Dal",
+      "veggieSide": "Beans-Carrot Andhra Poriyal",
+      "probioticSide": "Probiotic Curd & Sprout Salad",
+      "baseCalories": 520,
+      "baseProtein": 22,
+      "baseCarbs": 68,
+      "baseFats": 16,
+      "price": 180,
+      "description": "Wholesome Andhra-style vegetarian meal crafted with unpolished millets and fresh malai paneer."
+    },
+    {
+      "id": "nonveg_power",
+      "name": "Andhra Pepper Chicken Power Bento",
+      "diet": "nonveg",
+      "baseGrain": "Steamed Brown Rice",
+      "proteinMain": "Andhra Black Pepper Chicken Roast",
+      "veggieSide": "Sauteed Greens & French Beans",
+      "probioticSide": "Cucumber Mint Raita & Boiled Egg",
+      "baseCalories": 610,
+      "baseProtein": 42,
+      "baseCarbs": 58,
+      "baseFats": 19,
+      "price": 240,
+      "description": "High-protein lunch box featuring farm chicken braised in freshly ground black pepper and curry leaves."
+    },
+    {
+      "id": "veg_keto",
+      "name": "Green Goddess Paneer Keto Bento",
+      "diet": "veg",
+      "baseGrain": "Almond & Cauliflower Rice",
+      "proteinMain": "Tandoori Herb Paneer Tikka (150g)",
+      "veggieSide": "Charred Broccoli & Bell Peppers",
+      "probioticSide": "Avocado Dill Dip & Pumpkin Seeds",
+      "baseCalories": 480,
+      "baseProtein": 28,
+      "baseCarbs": 16,
+      "baseFats": 32,
+      "price": 230,
+      "description": "Strict low-carb, high-fat keto lunch keeping blood glucose stable throughout the afternoon work hours."
+    },
+    {
+      "id": "nonveg_grilled",
+      "name": "Lemon Herb Grilled Chicken Fitness Bento",
+      "diet": "nonveg",
+      "baseGrain": "Organic Tri-Color Quinoa",
+      "proteinMain": "Lemon Herb Grilled Chicken Breast",
+      "veggieSide": "Steamed Sweetcorn, Edamame & Spinach",
+      "probioticSide": "Greek Herb Yogurt & Boiled Egg White",
+      "baseCalories": 560,
+      "baseProtein": 48,
+      "baseCarbs": 46,
+      "baseFats": 14,
+      "price": 260,
+      "description": "Ultra-lean macro targeted bento engineered for fitness enthusiasts and athletes in Vizag."
+    }
+  ],
+  "addons": [
+    {
+      "id": "addon_eggs",
+      "name": "Farm Boiled Eggs",
+      "portion": "2 pcs (Pepper & Coriander Spiced)",
+      "price": 35,
+      "protein": 12,
+      "calories": 140,
+      "carbs": 1,
+      "fats": 10,
+      "type": "egg",
+      "category": "Egg"
+    },
+    {
+      "id": "addon_chicken",
+      "name": "Extra Andhra Pepper Chicken",
+      "portion": "100g (Boneless Grilled Breast)",
+      "price": 75,
+      "protein": 26,
+      "calories": 165,
+      "carbs": 2,
+      "fats": 6,
+      "type": "nonveg",
+      "category": "Chicken"
+    },
+    {
+      "id": "addon_paneer",
+      "name": "Sauteed Tandoori Paneer",
+      "portion": "100g (Fresh Malai Cottage Cheese)",
+      "price": 60,
+      "protein": 18,
+      "calories": 210,
+      "carbs": 4,
+      "fats": 14,
+      "type": "veg",
+      "category": "Paneer"
+    },
+    {
+      "id": "addon_buttermilk",
+      "name": "Cold-Pressed Spiced Buttermilk",
+      "portion": "250ml (Ginger, Hing, Curry Leaf)",
+      "price": 40,
+      "protein": 4,
+      "calories": 55,
+      "carbs": 5,
+      "fats": 2,
+      "type": "veg",
+      "category": "Beverage"
+    },
+    {
+      "id": "addon_rotis",
+      "name": "Multigrain Phulka Pair",
+      "portion": "2 pcs (Jowar, Ragi & Wheat)",
+      "price": 30,
+      "protein": 6,
+      "calories": 130,
+      "carbs": 26,
+      "fats": 2,
+      "type": "veg",
+      "category": "Breads"
+    }
+  ],
+  "customers": [
+    {
+      "id": "CUST-101",
+      "name": "Kiranmai Reddy",
+      "phone": "+91 98480 11234",
+      "email": "kiranmai.r@techmahindra.com",
+      "company": "Tech Mahindra, Tower 2, 4th Floor",
+      "zoneId": "rushikonda",
+      "diet": "veg",
+      "plan": "20-Day Monthly Power Bento",
+      "status": "active",
+      "deliverySlot": "12:30 PM",
+      "defaultAddons": [
+        "addon_paneer"
+      ],
+      "totalOrders": 38,
+      "lifetimeSpend": 8360,
+      "notes": "Prefers extra spicy dal, no onions on Tuesdays.",
+      "deliveries": {
+        "2026-08-10": "delivered",
+        "2026-08-11": "delivered",
+        "2026-08-12": "delivered",
+        "2026-08-13": "delivered",
+        "2026-08-14": "skipped",
+        "2026-08-17": "delivered",
+        "2026-08-18": "delivered",
+        "2026-08-19": "delivered",
+        "2026-08-20": "delivered",
+        "2026-08-21": "delivered",
+        "2026-08-24": "delivered",
+        "2026-08-25": "delivered",
+        "2026-08-26": "delivered",
+        "2026-08-27": "delivered",
+        "2026-08-28": "skipped",
+        "2026-08-31": "delivered",
+        "2026-09-02": "delivered",
+        "2026-09-03": "delivered",
+        "2026-09-04": "delivered",
+        "2026-09-07": "delivered"
+      }
+    },
+    {
+      "id": "CUST-102",
+      "name": "Anand Varma",
+      "phone": "+91 94402 33412",
+      "email": "anand.varma@hsbc.co.in",
+      "company": "HSBC Global Operations, Siripuram",
+      "zoneId": "siripuram",
+      "diet": "nonveg",
+      "plan": "20-Day Monthly Power Bento",
+      "status": "active",
+      "deliverySlot": "12:45 PM",
+      "defaultAddons": [
+        "addon_chicken",
+        "addon_eggs"
+      ],
+      "totalOrders": 44,
+      "lifetimeSpend": 15400,
+      "notes": "Deliver to desk 402; high protein workout diet.",
+      "deliveries": {
+        "2026-08-10": "delivered",
+        "2026-08-11": "delivered",
+        "2026-08-12": "delivered",
+        "2026-08-13": "delivered",
+        "2026-08-14": "delivered",
+        "2026-08-17": "delivered",
+        "2026-08-18": "delivered",
+        "2026-08-20": "delivered",
+        "2026-08-21": "delivered",
+        "2026-08-24": "delivered",
+        "2026-08-25": "delivered",
+        "2026-08-27": "delivered",
+        "2026-08-28": "delivered",
+        "2026-08-31": "delivered",
+        "2026-09-01": "delivered",
+        "2026-09-02": "delivered",
+        "2026-09-03": "delivered",
+        "2026-09-04": "delivered",
+        "2026-09-07": "delivered"
+      }
+    },
+    {
+      "id": "CUST-103",
+      "name": "Dr. Swapna Chowdary",
+      "phone": "+91 91772 44556",
+      "email": "dr.swapna@carehospital.org",
+      "company": "Care Hospital Doctors Lounge, MVP Colony",
+      "zoneId": "mvp_colony",
+      "diet": "veg",
+      "plan": "5-Day Weekly Corporate Pass",
+      "status": "active",
+      "deliverySlot": "1:15 PM",
+      "defaultAddons": [
+        "addon_buttermilk"
+      ],
+      "totalOrders": 19,
+      "lifetimeSpend": 4180,
+      "notes": "Low sodium request due to personal health regimen.",
+      "deliveries": {
+        "2026-08-10": "delivered",
+        "2026-08-11": "delivered",
+        "2026-08-12": "delivered",
+        "2026-08-13": "delivered",
+        "2026-08-14": "delivered",
+        "2026-08-17": "delivered",
+        "2026-08-18": "delivered",
+        "2026-08-19": "delivered",
+        "2026-08-20": "delivered",
+        "2026-08-21": "delivered",
+        "2026-08-24": "delivered",
+        "2026-08-25": "delivered",
+        "2026-08-26": "delivered",
+        "2026-08-27": "delivered",
+        "2026-08-28": "delivered",
+        "2026-08-31": "delivered",
+        "2026-09-01": "delivered",
+        "2026-09-02": "delivered",
+        "2026-09-03": "delivered",
+        "2026-09-04": "delivered",
+        "2026-09-07": "delivered"
+      }
+    },
+    {
+      "id": "CUST-104",
+      "name": "Ravi Shankar Patnaik",
+      "phone": "+91 93930 88712",
+      "email": "r.patnaik@vizagsteel.com",
+      "company": "Vizag Steel Plant Admin Block, Gajuwaka",
+      "zoneId": "gajuwaka",
+      "diet": "nonveg",
+      "plan": "20-Day Monthly Power Bento",
+      "status": "paused",
+      "deliverySlot": "12:15 PM",
+      "defaultAddons": [
+        "addon_eggs"
+      ],
+      "totalOrders": 27,
+      "lifetimeSpend": 7425,
+      "notes": "Subscription paused: on plant shutdown leave till Thursday.",
+      "deliveries": {
+        "2026-08-10": "skipped",
+        "2026-08-11": "skipped",
+        "2026-08-12": "skipped",
+        "2026-08-13": "skipped",
+        "2026-08-14": "skipped",
+        "2026-08-17": "skipped",
+        "2026-08-18": "skipped",
+        "2026-08-19": "skipped",
+        "2026-08-20": "skipped",
+        "2026-08-21": "skipped",
+        "2026-08-24": "skipped",
+        "2026-08-25": "skipped",
+        "2026-08-26": "skipped",
+        "2026-08-27": "skipped",
+        "2026-08-28": "skipped",
+        "2026-08-31": "delivered",
+        "2026-09-01": "delivered",
+        "2026-09-02": "skipped",
+        "2026-09-03": "delivered",
+        "2026-09-04": "delivered",
+        "2026-09-07": "delivered"
+      }
+    },
+    {
+      "id": "CUST-105",
+      "name": "Sneha Madhav",
+      "phone": "+91 98850 99011",
+      "email": "sneha.m@fintechvalley.org",
+      "company": "Fintech Valley Incubator, Millennium Tower B",
+      "zoneId": "rushikonda",
+      "diet": "veg",
+      "plan": "3-Day Trial Pass",
+      "status": "active",
+      "deliverySlot": "12:30 PM",
+      "defaultAddons": [
+        "addon_rotis"
+      ],
+      "totalOrders": 3,
+      "lifetimeSpend": 630,
+      "notes": "Prospective lead for 15-person engineering team meal pass.",
+      "deliveries": {
+        "2026-08-10": "delivered",
+        "2026-08-11": "delivered",
+        "2026-08-12": "delivered",
+        "2026-08-13": "delivered",
+        "2026-08-14": "delivered",
+        "2026-08-17": "skipped",
+        "2026-08-18": "delivered",
+        "2026-08-19": "delivered",
+        "2026-08-20": "delivered",
+        "2026-08-21": "delivered",
+        "2026-08-24": "delivered",
+        "2026-08-25": "delivered",
+        "2026-08-26": "delivered",
+        "2026-08-27": "delivered",
+        "2026-08-28": "delivered",
+        "2026-08-31": "delivered",
+        "2026-09-01": "delivered",
+        "2026-09-02": "delivered",
+        "2026-09-03": "delivered",
+        "2026-09-04": "delivered",
+        "2026-09-07": "delivered"
+      }
+    },
+    {
+      "id": "CUST-106",
+      "name": "Capt. Rajesh Nair",
+      "phone": "+91 94901 22345",
+      "email": "rnair@navaloff.gov.in",
+      "company": "Scindia Naval Officers Enclave",
+      "zoneId": "gajuwaka",
+      "diet": "nonveg",
+      "plan": "20-Day Monthly Power Bento",
+      "status": "active",
+      "deliverySlot": "12:15 PM",
+      "defaultAddons": [
+        "addon_chicken",
+        "addon_eggs"
+      ],
+      "totalOrders": 52,
+      "lifetimeSpend": 18200,
+      "notes": "Gate entry clearance pre-approved for courier vehicle.",
+      "deliveries": {
+        "2026-08-10": "skipped",
+        "2026-08-11": "delivered",
+        "2026-08-12": "delivered",
+        "2026-08-13": "delivered",
+        "2026-08-14": "delivered",
+        "2026-08-17": "delivered",
+        "2026-08-18": "delivered",
+        "2026-08-19": "delivered",
+        "2026-08-20": "delivered",
+        "2026-08-21": "delivered",
+        "2026-08-24": "delivered",
+        "2026-08-26": "delivered",
+        "2026-08-27": "delivered",
+        "2026-08-28": "delivered",
+        "2026-08-31": "delivered",
+        "2026-09-01": "delivered",
+        "2026-09-02": "delivered",
+        "2026-09-03": "skipped",
+        "2026-09-04": "delivered",
+        "2026-09-07": "delivered"
+      }
+    }
+  ],
+  "orders": [
+    {
+      "customerName": "Kiranmai Reddy",
+      "phone": "+91 98480 11223",
+      "company": "Millennium Tower B, IT SEZ, Rushikonda",
+      "zoneId": "rushikonda",
+      "templateId": "veg_classic",
+      "bentoName": "Executive Veg Bento (Custom)",
+      "diet": "veg",
+      "addons": [
+        "addon_eggs"
+      ],
+      "totalPrice": 215,
+      "deliverySlot": "12:30 PM",
+      "thermalBagTemp": "Hot Sealed (68C)",
+      "rider": "Ramesh Naidu (EV-01)",
+      "macros": {
+        "cal": 580,
+        "protein": 28,
+        "carbs": 64,
+        "fats": 14
+      },
+      "id": "HB-810",
+      "orderedAt": "12:39 PM",
+      "status": "prep"
+    },
+    {
+      "customerName": "Test Exec Client",
+      "phone": "+91 99999 88888",
+      "company": "HSBC Global Analytics, Siripuram",
+      "zoneId": "siripuram",
+      "templateId": "veg_classic",
+      "bentoName": "Executive Millet Bento (Pure Veg)",
+      "diet": "veg",
+      "addons": [
+        "addon_paneer",
+        "addon_eggs"
+      ],
+      "totalPrice": 250,
+      "deliverySlot": "12:30 PM",
+      "thermalBagTemp": "64°C",
+      "rider": "P. Satyanarayana",
+      "macros": {
+        "cal": 610,
+        "protein": 38,
+        "carbs": 62,
+        "fats": 18
+      },
+      "id": "HB-809",
+      "orderedAt": "10:37 AM",
+      "status": "received"
+    },
+    {
+      "customerName": "Sravani Rao",
+      "phone": "+91 98480 99887",
+      "company": "Millennium Tower B, Rushikonda",
+      "zoneId": "rushikonda",
+      "templateId": "veg_classic",
+      "bentoName": "Nutri-Balance Veg Bento",
+      "diet": "veg",
+      "addons": [
+        "addon_eggs",
+        "addon_chicken",
+        "addon_paneer"
+      ],
+      "totalPrice": 350,
+      "deliverySlot": "12:30 PM",
+      "thermalBagTemp": "Insulated Pre-heat",
+      "rider": "Ramesh Varma",
+      "id": "HB-808",
+      "orderedAt": "10:25 AM",
+      "status": "received"
+    },
+    {
+      "id": "HB-801",
+      "customerId": "CUST-101",
+      "customerName": "Kiranmai Reddy",
+      "phone": "+91 98480 11234",
+      "company": "Tech Mahindra, Rushikonda Tower 2",
+      "zoneId": "rushikonda",
+      "templateId": "veg_classic",
+      "bentoName": "Nutri-Balance Veg Bento",
+      "diet": "veg",
+      "addons": [
+        "addon_paneer"
+      ],
+      "totalPrice": 240,
+      "deliverySlot": "12:30 PM",
+      "status": "transit",
+      "orderedAt": "09:15 AM",
+      "thermalBagTemp": "63°C",
+      "rider": "Ramesh Varma",
+      "macros": {
+        "cal": 730,
+        "protein": 40,
+        "carbs": 72,
+        "fats": 30
+      }
+    },
+    {
+      "id": "HB-802",
+      "customerId": "CUST-102",
+      "customerName": "Anand Varma",
+      "phone": "+91 94402 33412",
+      "company": "HSBC Center, Siripuram",
+      "zoneId": "siripuram",
+      "templateId": "nonveg_power",
+      "bentoName": "Andhra Pepper Chicken Power Bento",
+      "diet": "nonveg",
+      "addons": [
+        "addon_chicken",
+        "addon_eggs"
+      ],
+      "totalPrice": 350,
+      "deliverySlot": "12:45 PM",
+      "status": "transit",
+      "orderedAt": "09:40 AM",
+      "thermalBagTemp": "62°C",
+      "rider": "Suresh Kumar",
+      "macros": {
+        "cal": 915,
+        "protein": 80,
+        "carbs": 61,
+        "fats": 35
+      }
+    },
+    {
+      "id": "HB-803",
+      "customerId": "CUST-103",
+      "customerName": "Dr. Swapna Chowdary",
+      "phone": "+91 91772 44556",
+      "company": "Care Hospital, MVP Colony",
+      "zoneId": "mvp_colony",
+      "templateId": "veg_classic",
+      "bentoName": "Nutri-Balance Veg Bento",
+      "diet": "veg",
+      "addons": [
+        "addon_buttermilk"
+      ],
+      "totalPrice": 220,
+      "deliverySlot": "1:15 PM",
+      "status": "prep",
+      "orderedAt": "10:05 AM",
+      "thermalBagTemp": "Packaging",
+      "rider": "Prasad Rao",
+      "macros": {
+        "cal": 575,
+        "protein": 26,
+        "carbs": 73,
+        "fats": 18
+      }
+    },
+    {
+      "id": "HB-804",
+      "customerId": "CUST-105",
+      "customerName": "Sneha Madhav",
+      "phone": "+91 98850 99011",
+      "company": "Fintech Valley, Rushikonda",
+      "zoneId": "rushikonda",
+      "templateId": "veg_keto",
+      "bentoName": "Green Goddess Paneer Keto Bento",
+      "diet": "veg",
+      "addons": [
+        "addon_paneer"
+      ],
+      "totalPrice": 290,
+      "deliverySlot": "12:30 PM",
+      "status": "qc",
+      "orderedAt": "10:15 AM",
+      "thermalBagTemp": "Checked",
+      "rider": "Ramesh Varma",
+      "macros": {
+        "cal": 690,
+        "protein": 46,
+        "carbs": 20,
+        "fats": 46
+      }
+    },
+    {
+      "id": "HB-805",
+      "customerId": "CUST-106",
+      "customerName": "Capt. Rajesh Nair",
+      "phone": "+91 94901 22345",
+      "company": "Scindia Naval Enclave, Gajuwaka",
+      "zoneId": "gajuwaka",
+      "templateId": "nonveg_grilled",
+      "bentoName": "Lemon Herb Grilled Chicken Fitness Bento",
+      "diet": "nonveg",
+      "addons": [
+        "addon_chicken",
+        "addon_eggs"
+      ],
+      "totalPrice": 370,
+      "deliverySlot": "12:15 PM",
+      "status": "delivered",
+      "orderedAt": "08:50 AM",
+      "thermalBagTemp": "61°C (Delivered)",
+      "rider": "Lakshmi Narayana",
+      "macros": {
+        "cal": 865,
+        "protein": 86,
+        "carbs": 49,
+        "fats": 30
+      }
+    },
+    {
+      "id": "HB-806",
+      "customerId": null,
+      "customerName": "Pradeep Chintalapati",
+      "phone": "+91 99890 55431",
+      "company": "Wipro Technologies, Rushikonda",
+      "zoneId": "rushikonda",
+      "templateId": "nonveg_power",
+      "bentoName": "Andhra Pepper Chicken Power Bento",
+      "diet": "nonveg",
+      "addons": [
+        "addon_eggs"
+      ],
+      "totalPrice": 275,
+      "deliverySlot": "12:45 PM",
+      "status": "received",
+      "orderedAt": "10:32 AM",
+      "thermalBagTemp": "Pending Kitchen",
+      "rider": "Ramesh Varma",
+      "macros": {
+        "cal": 750,
+        "protein": 54,
+        "carbs": 59,
+        "fats": 29
+      }
+    },
+    {
+      "id": "HB-807",
+      "customerId": null,
+      "customerName": "Meenakshi Sundaram",
+      "phone": "+91 98492 66782",
+      "company": "Dwaraka Nagar Commercial Bank",
+      "zoneId": "siripuram",
+      "templateId": "veg_classic",
+      "bentoName": "Nutri-Balance Veg Bento",
+      "diet": "veg",
+      "addons": [
+        "addon_rotis",
+        "addon_paneer"
+      ],
+      "totalPrice": 270,
+      "deliverySlot": "12:45 PM",
+      "status": "prep",
+      "orderedAt": "10:40 AM",
+      "thermalBagTemp": "Cooking Station",
+      "rider": "Suresh Kumar",
+      "macros": {
+        "cal": 860,
+        "protein": 46,
+        "carbs": 98,
+        "fats": 32
+      }
+    }
+  ],
+  "kitchenChecklist": [
+    {
+      "id": "step_1",
+      "task": "Millet & Brown Rice Steamers Active (30 kg batch)",
+      "done": true
+    },
+    {
+      "id": "step_2",
+      "task": "Andhra Tadka Dal & Spinach Gravy Cooked & Insulated",
+      "done": true
+    },
+    {
+      "id": "step_3",
+      "task": "Fresh Malai Paneer Cubes Diced & Marinated (12 kg)",
+      "done": true
+    },
+    {
+      "id": "step_4",
+      "task": "Country Eggs Hard-Boiled & Shells Peeled (120 pcs)",
+      "done": true
+    },
+    {
+      "id": "step_5",
+      "task": "Pepper Chicken Breast Slow Braised & QC Sample Tested",
+      "done": false
+    },
+    {
+      "id": "step_6",
+      "task": "Thermal Delivery Bags Pre-Heated to 65°C",
+      "done": false
+    }
+  ]
+}
